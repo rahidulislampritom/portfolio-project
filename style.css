@@ -232,23 +232,26 @@ main {
 
 .summary-button {
     text-align: center;
+    margin-top: 50px;
 }
 
 /* footer-container */
 
-    
+
 
 .footer-container {
     display: flex;
     justify-content: space-between;
-    
+    /* width: 50%; */
+
 }
 
-.input-area input {
+.form input,
+textarea {
     display: block;
     padding: 18px 0px 18px 30px;
     margin: 20px 0px;
-    width: 400px;
+    width: 100%;
     border-radius: 5px;
     background: rgb(255, 255, 255);
     border: none;
@@ -267,7 +270,18 @@ main {
     width: 550px;
 
 }
-.footer{
+
+.footer {
     padding: 0px 100px 0px 100px;
     background: rgb(255, 248, 243);
+}
+
+.textarea {
+    width: 461px;
+    height: 180px;
+}
+
+.footer-img img{
+    margin-top:35px;
+    padding: 10px;
 }
